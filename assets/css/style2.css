@@ -1,0 +1,387 @@
+html {
+    background-color: white;
+    background-size: cover;
+
+
+}
+
+
+
+body {
+    font-family: "Arial";
+    font-size: 15px;
+    color: #333333;
+    line-height: 150%;
+    margin: 0px;
+    left: auto;
+    text-align: justify;}
+
+h1 {
+    font-family: "Trebuchet MS";
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    color: #333333;
+
+}
+
+h2 {
+    font-family: "Trebuchet MS";
+    text-transform: uppercase;
+    font-weight: normal;
+    color: #333333;
+    margin: 15px 0px;
+}
+
+h3 {
+    font-family: "Trebuchet MS";
+    font-weight: bold;
+    color: #333333;
+}
+
+a {
+    color: #ff8800;
+}
+p{
+    text-align: justify;
+}
+
+img {
+    float: right;
+}
+
+header {
+    background-color: #333333;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 30px;
+    overflow: hidden;
+    height: 100px;
+
+}
+
+footer {
+    background-color: #020100;
+    color: grey;
+    padding: 10px;
+    margin: 0px;
+    border-top: 1px solid #eeeeee;
+
+}
+
+.header-container,
+.footer-container,
+article {
+    width: 600px;
+    margin: auto;
+
+}
+
+.header-container {
+    position: relative;
+    padding: 20px 0 20px 0;
+    font-size: 30px;
+}
+
+.contact {
+    position: absolute;
+    box-sizing: border-box;
+    right: 0;
+    width: 200px;
+    background-color: #888888;
+    color: white;
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: 66%;
+    margin-top: -10px;
+    line-height: 150%;
+    border-radius: 5%;
+}
+
+table {
+    margin: 25px auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-collapse: collapse;
+
+}
+
+td,
+th {
+    text-align: center;
+    border: 1px solid #aaaaaa;
+    width: 150px;
+    height: 40px;
+}
+
+th,
+td:first-child {
+    background-color: #eeeeee;
+}
+
+td :first-child {
+    text-align: left;
+}
+
+.myform {
+    border: 1px solid #333333;
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    margin-top: 100px;
+
+
+}
+
+label,
+input,
+textarea {
+    display: block;
+    margin-left: 25px;
+
+
+}
+
+label,
+.login,
+textarea {
+    margin-top: 10px;
+}
+
+textarea {
+    line-height: 200%;
+}
+
+
+a {
+    color: #ff8800;
+}
+
+
+.menu {
+    margin: auto;
+    width: 200px;
+    position: relative;
+
+}
+
+nav {
+    background-color: #eeeeee;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.link {
+    color: #ff8800;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.link:hover {
+    color: white;
+    background-color: orange;
+}
+
+.image,.logo{display: none;}
+.opiumfr{display: none;}
+#chatblack{display: none;}
+.spotify-embed{display: none;}
+.link2{display:none}
+
+
+@media only screen and (max-device-width: 1024px) and (orientation : landscape) {
+
+    div {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-device-width: 767px) and (orientation : portrait) {
+    header {
+        background-color: #020100;}
+   
+    
+
+    .header-container,
+    .footer-container,
+    article {
+        width: auto;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    h1 {
+        text-align: left;
+    }
+
+    .contact {
+        display: none;
+    }
+}
+
+@media only screen and (max-device-width: 480px) and (orientation : portrait) {
+    .img_desktop{
+        display: none;
+    }
+    .chatfr {display :none; }
+    .opiumfr{display:block;
+    padding-top: 5%;}
+
+    #logo{align-items: center;}
+    body,h1,h2,h3{color: #eeeeee;}
+    
+    .paragraphe{
+        background-image: url('wlr-playboi-background.gif');
+        background-repeat: no-repeat;
+        background-color: #020100;
+        background-position: center;
+    }
+    body{background-color: #020100;}
+    article{font-family: roboto;}
+
+    .image{
+        display: block;
+    }
+    img {
+        float: none;
+        width: 100%;
+    }
+     header{
+        height: 150px;
+        border: 1px solid #eeeeee;
+     }
+    .logo{
+        display: block;
+        padding: 18px;
+        width: 92%;
+        align-items: center;
+    }
+    .header-container{
+        height: 150px;
+        padding: 0%;
+        text-align: center;
+        font-size: 75%;
+        border-bottom: 1px solid #eeeeee;
+        ;
+        
+    }
+    #membreopium {
+        display: none;
+    }
+    
+    .image-container:hover #chatopium {
+        display: none;
+    }
+    
+    .image-container:hover #membreopium {
+        display: block;
+    }
+    
+
+
+    nav::before {
+        content: "MENU";
+        font-weight: bold;
+        font-size: large;
+        font-size: 150%;
+        margin:50px 0px ;
+    }
+
+    nav {
+        padding: 20px;
+        text-align: center;
+        font: weight 400%;;
+        background-color: #020100;
+        color: white;
+        border: 1px solid #eeeeee;
+    }
+
+    #chatdesktop{display: none;}
+    #chatblack{display :block}    
+    nav:hover{
+        color: #DD0426;
+    }
+    .link{display: none;}
+    .link2 {
+        border-top: 1px solid #eeeeee;
+        padding: 0px;
+        display: none;
+        text-decoration: none;
+    }
+    .animation_logo {
+        width: 45px;
+        height: 45px;
+        background-image: url('logo\ asterisk\ blanc.jpg');
+        background-size: cover;
+        animation: imageSwap 1s linear infinite;
+        display: none;
+
+    }
+    #anim2{
+        position: absolute;
+        position: right;
+    }
+    @keyframes imageSwap {
+        0% {
+            background-image: url('logo\ asterisk.png');
+        }
+        50% {
+            background-image: url('logo\ asterisk\ blanc.jpg');
+        }
+        100% {
+            background-image: url('logo\ asterisk.png');
+        }
+    }
+    .teenx{
+        background-image: url('kencarson-xman.gif');
+        background-repeat: no-repeat;
+        background-color: #020100;
+        background-position: center;
+        color: #DD0426;
+        
+
+    }
+
+    nav:hover .link2 {
+        display: block;
+       
+        padding: 12px 0px;
+    }
+    nav:hover .animation_logo {
+        display: inline-flex;
+       
+    }
+    
+    .link2{
+        animation-duration: 1s;
+        animation-name: clignote_menu;
+        animation-iteration-count: infinite;
+    }
+    @keyframes clignote_menu {
+        0% {color: white;}
+        25%{color:#DD0426;}
+        50%{color: white;}
+        75%{color:#DD0426;}
+        100%{color: white;}}
+    .h1 :hover{
+        color:aqua;
+    }
+    .h1{font-size: 18px;}
+
+    .link2:hover {
+        background-color: #DD0426;
+    }
+    a {
+        color: #DD0426;
+    }
+    .spotify-embed{
+        display: block;
+        }
+    .video_clip{
+        width: 100%;
+        height: auto;
+    }
+    
+    
+
+}
